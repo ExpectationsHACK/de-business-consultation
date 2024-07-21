@@ -48,7 +48,7 @@ const ExploreContainer = () => {
                     <div className='p-8 border border-[#C1FA6B] rounded-2xl  w-[24em]'>
                         <div className='p-4 w-12 rounded-full flex justify-center items-center bg-[#C1FA6B]'><img src="/results.png" alt="Logo" /></div>
                         <div className='font-medium font-serif text-[#FFFFFF] pt-6 pb-6 text-xl'>Results</div>
-                        <div className='text-[#FFFFFF] font-sans text-lg '>You'll work closely with seasoned professionals to find the best solutions tailored to your needs.</div>
+                        <div className='text-[#FFFFFF] font-sans text-lg'>You will work closely with seasoned professionals to find the best solutions tailored to your needs.</div>
                     </div>
 
                     <div className='p-8 border border-[#C1FA6B] rounded-2xl  w-[24em]'>

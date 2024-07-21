@@ -15,7 +15,7 @@ const ServiceModal = ({ onClose }) => {
   
       // Cleanup function to remove listener on unmount
       return () => document.removeEventListener('click', handleClickOutside);
-    }, []);
+    }, [handleClickOutside]);
   
     return (
       <div
