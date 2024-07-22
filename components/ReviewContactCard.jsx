@@ -4,7 +4,7 @@ const ReviewContactCard = () => {
   return (
     <div className="bg-orange-300  h-[20em] mt-12  mx-[80px] relative rounded-2xl overflow-hidden">
     <div className=" absolute inset-y-0 flex flex-col justify-center p-12 text-white z-10">
-      <h1 className="w-[30em] font-mono mt-12 text-[2em] font-semibold mb-4 text-[#FFFFFF]">Ready to experience financial excellence? Let's start your journey to success today!</h1>
+      <h1 className="w-[30em] font-mono mt-12 text-[2em] font-semibold mb-4 text-[#FFFFFF]">Ready to experience financial excellence? Lets start your journey to success today!</h1>
       <div className="mt-4 flex ">
         <button className="gap-2  justify-center items-center">
         <a href="#" className="bg-[#C1FA6B] border border-[#03713A] text-[#01170C] px-4  py-3 rounded-xl  flex justify-center items-center hover:bg-[#C1FA6B] hover:border-none focus:bg-[#C1FA6B] focus:border-none">
