@@ -1,5 +1,6 @@
 import ExploreContainer from "@/components/ExploreContainer";
 import FeaturesContainer from "@/components/FeaturesContainer";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import LatestArticle from "@/components/LatestArticle";
@@ -19,6 +20,7 @@ export default function Home() {
       </div>
       <LatestArticle />
       <Review />
+      <Footer />
     </div>
     
   );

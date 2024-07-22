@@ -13,7 +13,7 @@ const Section = () => {
     
     <div className="container mx-auto  flex-wrap flex-row  flex justify-center items-center">
             <div><h2 className="text-[2.8em] text-[#F17B2C] font-serif font-medium mr-[3em]">financial</h2></div> 
-            <div><img src='/text2.svg' alt="My descriptive image text" className='mt-4 absolute left-[47em] top-[52em]' /></div>  
+            <div><img src='/text2.svg' alt="My descriptive image text" className='mt-4 absolute left-[46em] top-[52em]' /></div>  
             <div><h2 className="text-[2.8em] text-[#F17B2C] font-serif font-medium">future.</h2></div>
     </div>
     </>
