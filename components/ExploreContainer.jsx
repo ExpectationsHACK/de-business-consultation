@@ -4,10 +4,10 @@ const ExploreContainer = () => {
   return (
     <div className='my-[20px] h-[76em] bg-[#01170C]'>
         <div>
-            <div>
-                <h2 className='text-[#FFFFFF] leading-tight font-mono text-[3em] font-semibold pl-36 w-[18em] pt-32'>Explore our  unique value proposition today.</h2>
+            <div className='container mx-auto'>
+                <h2 className='text-[#FFFFFF] leading-tight font-mono text-[3em] font-semibold pl-36 w-[18em] pt-32 '>Explore our  unique value proposition today.</h2>
                 <p className='text-[#F9FEF0] text-[1.4em] pl-36 pt-4 font-serif font-light'>Introducing the extraordinary perks of teaming up with us!</p>
-                <div className='border-l-4 border-[#C1FA6B] h-12 absolute left-[2em] top-[110em] ml-20'></div>
+                {/* <div className='border-l-4 border-[#C1FA6B] '></div> */}
                 <div className='pl-36 pt-8'>
                    <button className="gap-2 flex  justify-center items-center">
                     <a href="#" className="bg-[#C1FA6B] border border-[#03713A] text-[#01170C] px-4  py-3 rounded-xl  flex justify-center items-center hover:bg-[#C1FA6B] hover:border-none focus:bg-[#C1FA6B] focus:border-none">
@@ -20,7 +20,7 @@ const ExploreContainer = () => {
                 </div>
             </div>
             <div>
-                <div className='pl-28 pt-24 grid grid-cols-3 grid-rows-2 gap-8 w-[84em]'>
+                <div className='container mx-auto pt-24 grid grid-cols-3 grid-rows-2 gap-8 w-[79em]'>
                     <div className='p-8 border border-[#C1FA6B] rounded-2xl  w-[24em]'>
                         <div className='p-4 w-12 rounded-xl flex justify-center items-center bg-[#C1FA6B]'><img src="/search.png" alt="Logo" /></div>
                         <div className='font-medium font-serif text-[#FFFFFF] pt-6 pb-6 text-xl'>Brand Perception</div>

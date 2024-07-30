@@ -1,12 +1,14 @@
 'use client'
 import React, {useState, useEffect} from 'react'
-import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import ServiceModal from './ServiceModal'
  
 
 
 
 const Header = () => {
+  const router = useRouter()
+
   const [showModal, setShowModal] = React.useState(false);
 
   const handleClick = () => {
@@ -24,20 +26,24 @@ const Header = () => {
     <div className="h-[80px] fixed top-0 left-0 w-full z-50 bg-[#FFFCFB] py-[20px] px-[80px] shadow-xl">
       <header className="container mx-auto flex justify-between items-center">
         <nav className='flex space-x-12'>
-            <button href="/">
+          
+            <button type="button" onClick={() => router.push('/')}>
                 <img src="/logo.png" alt="Logo" />
             </button>
-        
-          <Link href="/about">
-            <p className='text-[#525866]  px-4 py-2 rounded-lg  font-mono font-bold hover:bg-gray-100 focus:bg-gray-200'>About</p>
-          </Link>
+
+            <button type="button" onClick={() => router.push('/about')}>
+                 <p className='text-[#525866]  px-4 py-2 rounded-lg  font-mono font-bold hover:bg-gray-100 focus:bg-gray-200'>About</p>   
+            </button>
+                
           <button onClick={handleClick}>
             <p className='text-[#525866] px-4 py-2 rounded-lg font-mono font-bold  hover:bg-gray-100' >Services</p>
             {showModal && <ServiceModal onClose={handleClose} />}
           </button>
-          <Link href="/blog">
-            <p className='text-[#525866] font-mono font-bold px-4 py-2 rounded-lg hover:bg-gray-100'>Blog</p>
-          </Link>
+
+          <button type="button" onClick={() => router.push('/blog/all')}>
+             <p className='text-[#525866] font-mono font-bold px-4 py-2 rounded-lg hover:bg-gray-100'>Blog</p>
+          </button>
+         
      </nav>
       <div className='flex'>
           <button>

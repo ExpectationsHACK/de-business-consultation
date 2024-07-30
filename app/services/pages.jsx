@@ -1,9 +1,5 @@
-import React from 'react'
-
-const Pages = () => {
-  return (
-    <div>Pages</div>
-  )
+export default function Page() {
+  return <div>
+    
+  </div>;
 }
-
-export default Pages

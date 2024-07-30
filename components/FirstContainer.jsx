@@ -22,7 +22,7 @@ const FirstContainer = () => {
         onMouseLeave={handleLeave}
       >
         <h2 className="text-xl text-[#1C7F4E] w-[20em] font-serif font-medium mb-4">Accounting and Bookkeeping</h2>
-        <div className='bg-contain w-[20em] h-[25em]' style={{backgroundImage: `url('image.png')`}}>
+        <div className='bg-contain w-[20em] h-[23.8em]' style={{backgroundImage: `url('image.png')`}}>
         <div className={` rounded-md ${isVisible ? '' : 'invisible'}`} >
           <Hover />
         </div>
