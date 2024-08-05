@@ -4,7 +4,7 @@ import Newsletter from './Newletters';
 
 const Footer = () => {
   return (
-    <div className='mt-12  mx-[120px]'>
+    <div className='mt-12  mx-[40px]'>
         <div className='flex flex-row w-full justify-between pb-8 border-b-2 border-[#FFDAC2]'>
             <div className='flex flex-col gap-4'>
                 <div><img src="/logo.png" alt="Logo" /></div>
